@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Peralta|Permanent+Marker&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <h1 style ="margin-top: 20px;">CARD 
+                <span style="text-align: center;">GAME</span>
+            </h1>
+            <span style=" font-size: 30px; font-weight: 00;">
+                <span id="count">0 </span>MOVE(s)</span>
+        </div>
+        <br>
+        <div class="memory-card">
+            <div onclick="count()" class="card" data-card="battle">
+                <div class="front-face">
+                    <i class="fab fa-battle-net"></i>
+                </div>
+                <div class="back-face">
+                    <i class="fas fa-robot"></i>
+                </div>
+            </div>
+            <div onclick="count()" class="card" data-card="avianex">
+                <div class="front-face">
+                    <i class="fab fa-avianex"></i>
+                </div>
+                <div class="back-face">
+                    <i class="fas fa-robot"></i>
+                </div>
+            </div>
+            <div onclick="count()" class="card" data-card="angellist">
+                <div class="front-face">
+                    <i class="fab fa-angellist"></i>
+                </div>
+                <div class="back-face">
+                    <i class="fas fa-robot"></i>
+                </div>
+            </div>
+            <div onclick="count()" class="card" data-card="battle">
+                <div class="front-face">
+                    <i class="fab fa-battle-net"></i>
+                </div>
+                <div class="back-face">
+                    <i class="fas fa-robot"></i>
+                </div>
+            </div>
+        </div>
+        <br>
+
+        <div class="memory-card">
+            <div onclick="count()" class="card" data-card="app-store">
+                <div class="front-face">
+                    <i class="fab fa-app-store"></i>
+                </div>
+                <div class="back-face">
+                    <i class="fas fa-robot"></i>
+                </div>
+            </div>
+            <div onclick="count()" class="card" data-card="ethereum">
+                <div class="front-face">
+                    <i class="fab fa-ethereum"></i>
+                </div>
+                <div class="back-face">
+                    <i class="fas fa-robot"></i>
+                </div>
+            </div>
+            <div onclick="count()" class="card" data-card="angry">
+                <div class="front-face">
+                    <i class="fab fa-angrycreative"></i>
+                </div>
+                <div class="back-face">
+                    <i class="fas fa-robot"></i>
+                </div>
+            </div>
+            <div onclick="count()" class="card" data-card="avianex">
+                <div class="front-face">
+                    <i class="fab fa-avianex"></i>
+                </div>
+                <div class="back-face">
+                    <i class="fas fa-robot"></i>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="memory-card">
+            <div onclick="count()" class="card" data-card="ethereum">
+                <div class="front-face">
+                    <i class="fab fa-ethereum"></i>
+                </div>
+                <div class="back-face">
+                    <i class="fas fa-robot"></i>
+                </div>
+            </div>
+            <div onclick="count()" class="card" data-card="angellist">
+                <div class="front-face">
+                    <i class="fab fa-angellist"></i>
+                </div>
+                <div class="back-face">
+                    <i class="fas fa-robot"></i>
+                </div>
+            </div>
+            <div onclick="count()" class="card" data-card="angry">
+                <div class="front-face">
+                    <i class="fab fa-angrycreative"></i>
+                </div>
+                <div class="back-face">
+                    <i class="fas fa-robot"></i>
+                </div>
+            </div>
+            <div onclick="count()" class="card" data-card="app-store">
+                <div class="front-face">
+                    <i class="fab fa-app-store"></i>
+                </div>
+                <div class="back-face">
+                    <i class="fas fa-robot"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/66f4a21315.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
