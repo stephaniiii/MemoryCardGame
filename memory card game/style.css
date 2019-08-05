@@ -1,16 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    background: radial-gradient(wheat,black);
+}
+
 .wrapper {
     padding: 0px;
     margin: 0px;
     max-height: 500px;
     margin-top: 10px;
 }
-body{
-    background-size: cover;
-    width: 100vw;
-    height: 100vh;
-    overflow: hidden;
-}
-.header {
+
+ .container-info .header {
     display: flex;
     justify-content: space-evenly;
     align-items: baseline;
@@ -21,7 +28,10 @@ body{
     color: black;
     font-size: 20px;
     margin-top: 10px;
-}
+    display: block;
+}   
+
+
 .memory-card {
     display: flex;
     flex-wrap: wrap;
@@ -43,6 +53,7 @@ body{
 .card i {
     font-size: 25px;
 }
+
 .card:active {
     transform: scale(.97);
     transition: transform .2s;
@@ -52,7 +63,7 @@ body{
 }
 .back-face {
     display: flex;
-    background:black;
+    background: black;
     height: 130px;
     width: 100%;
     position: absolute;
@@ -64,7 +75,7 @@ body{
 }
 .front-face {
     display: flex;
-    background: rgb(97, 85, 85);
+    background: radial-gradient(wheat,black);
     height: 130px;
     width: 100%;
     position: absolute;
